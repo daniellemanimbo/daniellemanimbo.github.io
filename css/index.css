@@ -1,0 +1,629 @@
+/* 
+	Colors Breakdown:
+	White: #FFFFFF;
+	Black: #4B4B4B;
+	Blue: #B8D5D9;
+	Darker Blue: #7CC6D0;
+	Gold: #FFCD14;
+*/
+
+/* For mobile phones and small tablets (320-1023px width) */
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Poiret One', cursive;
+	color: #4B4B4B;
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Cedarville Cursive', cursive;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: 'Cedarville Cursive', cursive;
+	color: #4B4B4B;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-family: 'Poiret One', cursive;
+}
+
+p {
+	line-height: 1.43;
+}
+
+a {
+	font-size: 1.5em;
+	font-family: 'Cedarville Cursive', cursive;
+	color: #B8D5D9;
+	text-decoration: none;
+}
+
+.section {
+	text-align: center;
+}
+
+.bar {
+	background-color: #B8D5D9; 
+}
+
+.bar--xlarge {
+	height: 100px;
+}
+
+.bar--large {
+	height: 75px;
+}
+
+.bar--medium {
+	height: 50px;
+}
+
+.bar--small {
+	height: 25px;
+}
+
+.home-body {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.home-title .letter {
+  display: inline-block;
+  line-height: 1.5em;
+}
+
+.about-acrostic {
+	margin-top: 15px;
+	margin-left: 70px;
+}
+
+.about-acrostic h3 {
+	margin: 0;
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.about-acrostic h3.R {
+	margin-top: 5px;
+}
+
+.about-acrostic h3.first-E {
+	margin-left: -2em;
+}
+
+.about-acrostic h3.G {
+	margin-left: -6.5em;
+}
+
+.about-acrostic h3.I {
+	margin-left: -4.75em;
+}
+
+.about-acrostic h3.N {
+	margin-left: -1em;	
+}
+
+.about-acrostic h3.last-E {
+	margin-left: -5.5em;
+	margin-bottom: 15px;
+}
+
+.about-acrostic span {
+	color: #FFCD14;
+}
+
+.about-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.about-img-wrapper {
+	margin-bottom: 15px;
+}
+
+.about-hello-title {
+	margin: 0;
+}
+
+.about-hello-descr {
+	margin: 0 0 15px 0;
+	padding: 15px;
+	text-align: left;
+}
+
+.currently-skills-title {
+	margin: 30px 0 0 0;
+}
+
+.currently-skills-list {
+	padding: 0 15px 15px 15px;
+	text-align: left;
+}
+
+.currently-skills-list p:first-child {
+	margin-top: 0;
+}
+
+.currently-skills-list p:last-child {
+	margin-bottom: 0;
+}
+
+.currently-status-title {
+	margin: 15px 0 0 0;
+}
+
+.currently-status-descr {
+	margin: 0 0 60px 0;
+	padding: 15px;
+	text-align: left;
+}
+
+.past-projects-title {
+	margin-bottom: 0;
+}
+
+.past-projects-photos a {
+	display: block;
+}
+
+.past-projects-photo {
+	width: 200px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+.past-projects-photo--dev {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 200px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #D8D8D8;
+}
+
+.past-projects-photo--dev h2,
+.past-projects-photo--dev p {
+	margin: 0;
+}
+
+.organizations .bar--medium {
+	height: 15%;
+}
+
+.organizations .bar--small {
+	height:  7.5%;
+}
+
+.education,
+.orgs {
+	height: 30%;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.orgs {
+	height: 40%;
+}
+
+.education-title {
+	margin-bottom: 15px;
+}
+
+.orgs-title {
+	margin: 30px 0 0 0;
+}
+
+.education-content,
+.orgs-content {
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.education-school {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+}
+
+.orgs-row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.reachout .bar--large {
+	height: 20%
+}
+
+.reachout .bar--xlarge {
+	height: 20%;
+}
+
+.reachout-content {
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.reachout-title {
+	margin: 15px 0;
+}
+
+.reachout-info-descr,
+.reachout-work-descr {
+	padding: 0 15px;
+}
+
+.reachout-work-descr {
+	margin-bottom: 30px;
+}
+
+.contact-content {
+	padding: 0 15px;
+	color: #FFFFFF;
+}
+
+.social-links {
+	padding: 0;
+}
+
+.social-links li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.social-link:link {
+	font-family: 'Poiret One', cursive;
+	font-size: 2em;
+	color: #7CC6D0;
+	text-decoration: none;
+}
+
+.social-link:visited {
+	color: #7CC6D0;
+	text-decoration: none;
+}
+
+.social-link:hover {
+	color: #4B4B4B;
+	text-decoration: none;
+}
+
+.social-link:active {
+	color: #4B4B4B;
+	text-decoration: none;
+}
+
+#social-pedong {
+	font-size: 1em;
+}
+
+/* For tablets like smaller iPads */
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: 1.1em;
+	}
+	
+	h1 {
+		font-size: 2.1em;
+	}
+	
+	h2 {
+		font-size: 1.6em;
+	}
+	
+	h3 {
+		font-size: 1.35em;
+	}
+
+	.bar--xlarge {
+		height: 20%;
+	}
+
+	.bar--large {
+		height: 15%;
+	}
+
+	.bar--medium {
+		height: 10%;
+	}
+
+	.bar--small {
+		height: 5%;
+	}
+
+	.about .bar--xlarge {
+		height: 15%;
+	}
+
+	.about .bar--large {
+		height: 10%;
+	}
+
+	.about-content {
+		height: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.currently-content {
+		height: 85%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.currently-skills-title {
+		margin-bottom: 15px;
+	}
+
+	.past-projects-photo {
+		width: 300px;
+	}
+
+	.past-projects-photo--dev {
+		width: 300px;
+		height: 200px;
+	}
+
+	.education {
+		height: 35%;
+		align-items: center;
+	}
+
+	.orgs {
+		height: 35%;
+	}
+
+	.education-content {
+		width: 50%;
+	}
+
+	.reachout .bar--xlarge {
+		height: 25%;
+	}
+
+	.reachout-content {
+		height: 55%;
+	}
+
+	.contact h3 {
+		font-size: 1.5em;
+	}
+}
+
+/* For normal laptop/desktop/iPad Pro */
+@media only screen and (min-width: 1024px) {
+	body {
+		font-size: 1em;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+	}
+	
+	h2 {
+		font-size: 2em;
+	}
+	
+	h3 {
+		font-size: 1.5em;
+	}
+
+	.bar--xlarge {
+		height: 30%;
+	}
+	
+	.bar--large {
+		height: 25%;
+	}
+	
+	.bar--medium {
+		height: 20%;
+	}
+	
+	.bar--small {
+		height: 15%;
+	}
+
+	.about .bar--xlarge {
+		height: 20%;
+	}
+
+	.about .bar--large {
+		height: 15%;
+	}
+
+	.about-acrostic {
+		margin-left: 140px;
+	}
+
+	.about-content {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		align-items: center;
+		padding: 50px;
+		height: 65%;
+	}
+
+	.about-img {
+		width: 250px;
+		height: 250px;
+		margin: 0 30px;
+	}
+
+	.currently-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 65%;
+		padding: 25px 50px;
+	}
+
+	.currently-skills,
+	.currently-status {
+		display: flex;
+	}
+
+	.currently-skills-title,
+	.currently-status-title {
+		margin-top: 0;
+    width: 20%;
+    text-align: left;
+	}
+
+	.currently-skills-list,
+	.currently-status-descr {
+		width: 80%;
+	}
+
+	.currently-status-descr {
+		margin: 0;
+    padding: 0;
+	}
+
+	.currently-skills-list p {
+		margin: 0;
+	}
+
+	.past-projects-content {
+		height: 100%;
+		display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	}
+
+	.past-projects-column {
+		margin: 0 30px;
+	}
+
+	.past-projects-photos {
+		display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+
+	.past-projects-photo {
+		width: 300px;
+		margin-bottom: 30px;
+	}
+
+	.past-projects-photo--dev {
+		width: 300px;
+		height: 200px;
+	}
+
+	.education {
+		height: 25%;
+		padding: 0 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+	}
+
+	.education-title {
+		width: 35%;
+		text-align: left;
+	}
+
+	.education-content {
+		width: 50%;
+	}
+
+	.education-school,
+	.education-content {
+		margin: 0;
+	}
+	
+	.organizations .bar--medium {
+		height: 20%;
+	}
+
+	.organizations .bar--small {
+		height: 10%;
+	}
+
+	.orgs {
+		height: 35%;
+		padding: 0 50px;
+	}
+
+	.orgs-title {
+		text-align: left;
+		padding: 0;
+	}
+
+	.education {
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.reachout .bar--large {
+		height: 20%;
+	}
+
+	.reachout .bar--xlarge {
+		height: 25%
+	}
+
+	.reachout-content {
+		height: 55%;
+		display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	}
+
+	.reachout-row {
+		width: 50%;
+	}
+
+	.contact h3 {
+		font-size: 1.75em;
+	}
+}
+
+/* For larger laptop/desktop screens */
+@media only screen and (min-width: 1440px) {
+	body {
+		font-size: 1.25em;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+	}
+	
+	h2 {
+		font-size: 2em;
+	}
+	
+	h3 {
+		font-size: 1.5em;
+	}
+
+	.about-acrostic {
+		margin-left: 150px;
+	}
+
+	.about-img {
+		width: 300px;
+		height: 300px;
+	}
+}
